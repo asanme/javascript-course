@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: Inter, "Inter", serif;
+}
+
+body {
+    margin: 0;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+#generatorBtn {
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    cursor:pointer;
+}
+
+#randomNumber {
+    font-weight: normal;
+}
